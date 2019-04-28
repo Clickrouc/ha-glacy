@@ -1,0 +1,10 @@
+Catalog for style files.
+
+--
+
+Example of files structure:
+
+css/
+| - style.css
+| - normalize.css
+| - [other *.css files]
