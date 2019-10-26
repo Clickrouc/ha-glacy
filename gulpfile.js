@@ -7,7 +7,7 @@ gulp.task('serve', function() {
             baseDir: "./build"
         }
     });
-    browserSync.watch('', browserSync.reload);
+    browserSync.watch("./build/**/*", browserSync.reload);
 });
 
 gulp.task('default', gulp.series(
